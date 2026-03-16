@@ -1,0 +1,36 @@
+name: Use Case Request
+description: Suggest a business scenario that should be covered by an existing or future skill.
+title: "[Use Case]: "
+labels:
+  - use-case
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: Describe the real workflow and where the friction happens.
+      placeholder: After every weekly management meeting, the team loses time manually rewriting notes into tasks and a status summary.
+    validations:
+      required: true
+  - type: textarea
+    id: role
+    attributes:
+      label: Who is involved?
+      description: List the main role or team.
+      placeholder: Operations manager, project lead, support lead.
+    validations:
+      required: true
+  - type: textarea
+    id: desired
+    attributes:
+      label: Desired outcome
+      description: What should the repository help produce?
+      placeholder: A structured recap with decisions, owners, deadlines, and risks.
+    validations:
+      required: true
+  - type: textarea
+    id: current_tools
+    attributes:
+      label: Current tools or inputs
+      description: Mention docs, chats, CRM, transcripts, or other inputs if relevant.
+

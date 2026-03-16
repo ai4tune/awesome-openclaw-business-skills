@@ -1,0 +1,41 @@
+name: Validate Repository
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Markdown lint
+        uses: DavidAnson/markdownlint-cli2-action@v18
+        with:
+          globs: |
+            **/*.md
+
+      - name: Validate required root files
+        run: |
+          test -f README.md
+          test -f LICENSE
+          test -f CONTRIBUTING.md
+          test -f CODE_OF_CONDUCT.md
+          test -f ROADMAP.md
+          test -f CHANGELOG.md
+
+      - name: Validate skill structure
+        run: |
+          for dir in skills/*; do
+            test -d "$dir"
+            test -f "$dir/README.md"
+            test -f "$dir/skill.md"
+            test -f "$dir/examples/input.md"
+            test -f "$dir/examples/output.md"
+          done
+

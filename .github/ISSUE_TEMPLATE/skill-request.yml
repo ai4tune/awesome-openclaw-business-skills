@@ -1,0 +1,50 @@
+name: Skill Request
+description: Propose a new business workflow skill for the repository.
+title: "[Skill Request]: "
+labels:
+  - enhancement
+  - skill-request
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Business use case
+      description: Describe the workflow, role, and business context.
+      placeholder: Sales team needs help turning client call notes into structured follow-up actions.
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: Typical input
+      description: What input will the skill receive?
+      placeholder: Meeting transcript, CRM notes, chat excerpts.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Expected output
+      description: What useful output should the skill produce?
+      placeholder: Summary, action items, owner, deadline, risk notes.
+    validations:
+      required: true
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Intended audience
+      options:
+        - Sales
+        - Operations
+        - Management
+        - Training
+        - Consulting
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Constraints or notes
+      description: Mention compliance, formatting, or system constraints if relevant.
+
