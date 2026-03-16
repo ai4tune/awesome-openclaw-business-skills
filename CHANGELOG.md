@@ -12,11 +12,13 @@ All notable changes to this repository will be documented in this file.
 - GitHub issue and PR templates
 - Validation workflow
 - Documentation set for getting started, principles, use cases, and FAQ
-- Five baseline business skills:
+- Three baseline business skills:
   - meeting-minutes
   - client-followup
   - weekly-report
-  - training-summary
-  - proposal-draft
 - Reusable skill templates and example IO templates
 
+### Changed
+
+- Refocused the public catalog around three representative skills
+- Simplified roadmap messaging to emphasize content before expansion

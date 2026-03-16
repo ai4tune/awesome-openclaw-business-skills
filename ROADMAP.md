@@ -1,29 +1,22 @@
 # Roadmap
 
-## Phase 1: Foundation
+## Current Focus
 
-- Establish repository positioning and information architecture
-- Publish the first five baseline business skills
-- Add contribution, issue, and PR standards
-- Set up lightweight validation with GitHub Actions
+- Strengthen 3 baseline business skills
+- Publish richer input and output examples
+- Add enterprise workflow templates
+- Add contribution guide refinements
+- Add advanced custom skill showcase
 
-## Phase 2: Quality
+## Next Up
 
-- Add screenshots and visual previews for each skill
-- Introduce quality labels such as `baseline`, `validated`, and `enterprise-ready`
-- Expand example coverage for edge cases and poor-input scenarios
-- Improve documentation for first-time contributors
+- Add `training-summary`
+- Add `proposal-draft`
+- Expand use-case docs for sales, consulting, and internal operations
+- Add more screenshots and visual previews
 
-## Phase 3: Expansion
+## Later
 
-- Add industry-flavored variants for sales, consulting, HR, and operations
-- Add multi-step workflow packs built from several baseline skills
-- Publish enterprise design notes and adaptation guides
-- Add bilingual content for stronger regional reach
-
-## Phase 4: Ecosystem
-
-- Connect repository content with articles, workshops, and public demos
-- Add a public changelog rhythm for each release cycle
-- Curate community-contributed use cases and implementation notes
-
+- Introduce industry-specific variants
+- Publish multi-step workflow packs
+- Connect the repo with articles, workshops, and public demos

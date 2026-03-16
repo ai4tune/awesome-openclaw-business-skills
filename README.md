@@ -6,6 +6,20 @@ Practical OpenClaw skills for business workflows, AI adoption, and enterprise pr
 
 [Quick Start](#quick-start) · [Skill Catalog](#skill-catalog) · [Use Cases](#enterprise-use-cases) · [For Enterprise](#free-vs-custom) · [Contributing](#contributing)
 
+## At A Glance
+
+**What it is**
+
+A public sample repository of practical OpenClaw business skills.
+
+**Who it is for**
+
+Operators, consultants, sales teams, internal AI champions, and anyone trying to make enterprise AI useful in everyday work.
+
+**What problem it solves**
+
+It helps teams start from small, repeatable business workflows instead of vague AI experiments.
+
 ## Why This Repo Exists
 
 Many teams know AI matters but still do not know which small business workflow to start with.
@@ -25,21 +39,41 @@ If you are new to the repo, start with [docs/getting-started.md](docs/getting-st
 
 ## Skill Catalog
 
+These are the first three representative skills in the repository. They are intentionally simple, practical, and easy to understand.
+
 | Skill | 场景 | 输入 | 输出 | Level |
 | --- | --- | --- | --- | --- |
 | [Meeting Minutes](skills/meeting-minutes/README.md) | 会议纪要 | 会议记录、转写文本、聊天摘录 | 结论、待办、责任人、风险 | Free |
 | [Client Follow-up](skills/client-followup/README.md) | 客户跟进 | 拜访记录、聊天记录、销售备注 | 需求、顾虑、下一步动作、建议话术 | Free |
 | [Weekly Report](skills/weekly-report/README.md) | 周报整理 | 零散工作记录、任务清单、会议摘录 | 结构化周报、重点成果、风险与下周计划 | Free |
-| [Training Summary](skills/training-summary/README.md) | 培训沉淀 | 课程笔记、培训录音转写、分享提纲 | 培训讲义、FAQ、行动建议 | Free |
-| [Proposal Draft](skills/proposal-draft/README.md) | AI 方案初稿 | 客户背景、业务目标、限制条件 | AI 试点方案、范围、里程碑、风险假设 | Free |
+
+### Why These Three First
+
+- `meeting-minutes` shows clear operational value inside almost every team
+- `client-followup` connects directly to sales and consulting workflows
+- `weekly-report` demonstrates how AI can reduce recurring reporting friction
+
+Upcoming skill ideas are tracked in [ROADMAP.md](ROADMAP.md).
+
+## Representative Skills
+
+### Meeting Minutes
+
+Best for turning transcripts or raw meeting notes into decisions, action items, owners, and risks.
+
+### Client Follow-up
+
+Best for transforming visit notes or chat history into client goals, concerns, and follow-up actions.
+
+### Weekly Report
+
+Best for converting scattered weekly notes into a concise update a manager can skim quickly.
 
 ## Enterprise Use Cases
 
 - Sales follow-up after client meetings and demos
 - Internal meeting recap for fast execution
-- Training and workshop knowledge capture
 - Management reporting from fragmented work logs
-- Proposal drafting for AI pilots and consulting conversations
 
 More detailed examples live in [docs/enterprise-use-cases.md](docs/enterprise-use-cases.md).
 
@@ -62,9 +96,9 @@ awesome-openclaw-business-skills/
 
 ## Free vs Custom
 
-This public repository contains reusable baseline skills.
+This repository focuses on reusable baseline skills.
 
-Advanced workflow, industry-specific, and enterprise-integrated versions are intentionally kept custom.
+For industry-specific, workflow-heavy, or enterprise-integrated versions, custom adaptations are possible.
 
 Public:
 
@@ -107,10 +141,10 @@ Current direction is tracked in [ROADMAP.md](ROADMAP.md).
 
 Short term priorities:
 
-- Improve the first five baseline skills
-- Add screenshots and social preview assets
-- Introduce a lightweight validation standard for skill folders
-- Add more enterprise role-based examples
+- Strengthen the first three representative skills
+- Publish more input and output examples
+- Add enterprise workflow templates
+- Add advanced custom skill showcases
 
 ## Docs
 
@@ -123,3 +157,8 @@ Short term priorities:
 
 Released under the [MIT License](LICENSE).
 
+## Collaboration
+
+- For new skill ideas, open a `Skill Request`
+- For enterprise scenarios, open a `Use Case Request`
+- For cooperation or customization, start with a GitHub issue so the workflow and constraints are clear

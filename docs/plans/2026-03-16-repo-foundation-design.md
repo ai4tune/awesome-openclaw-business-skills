@@ -21,13 +21,11 @@ Build `awesome-openclaw-business-skills` as a public sample repository for enter
 
 ## Release Shape
 
-Start with five baseline skills that are easy to understand and commercially relevant:
+Start with three baseline skills that are easy to understand and commercially relevant:
 
 - meeting-minutes
 - client-followup
 - weekly-report
-- training-summary
-- proposal-draft
 
 ## Quality Bar
 
@@ -35,4 +33,3 @@ Start with five baseline skills that are easy to understand and commercially rel
 - Every skill must show example input and output.
 - Public content stays generic and reusable.
 - Advanced enterprise customization remains intentionally outside the public baseline.
-

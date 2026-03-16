@@ -6,9 +6,8 @@ This folder is reserved for:
 - README screenshots
 - Skill-related visuals
 
-Suggested future files:
+Current files:
 
-- `banner.png`
+- `social-preview.svg`
 - `repo-preview.png`
 - `screenshots/`
-

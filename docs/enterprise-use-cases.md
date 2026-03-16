@@ -17,16 +17,3 @@ Recommended skill: `meeting-minutes`
 Combine fragmented weekly notes into a concise report a manager can skim quickly.
 
 Recommended skill: `weekly-report`
-
-## Training And Knowledge Capture
-
-Take internal training content and turn it into a reusable summary, FAQ, and action checklist.
-
-Recommended skill: `training-summary`
-
-## AI Opportunity Framing
-
-Use customer background and business goals to create a first-pass AI proposal that is good enough to discuss, refine, and scope.
-
-Recommended skill: `proposal-draft`
-

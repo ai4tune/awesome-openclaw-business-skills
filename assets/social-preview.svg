@@ -7,9 +7,8 @@
   </defs>
   <rect width="1280" height="640" fill="url(#bg)"/>
   <rect x="72" y="72" width="1136" height="496" rx="24" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.18"/>
-  <text x="120" y="200" fill="#ffffff" font-size="54" font-family="Arial, sans-serif" font-weight="700">awesome-openclaw-business-skills</text>
+  <text x="120" y="200" fill="#ffffff" font-size="58" font-family="Arial, sans-serif" font-weight="700">OpenClaw Business Skills</text>
   <text x="120" y="270" fill="#dbeafe" font-size="28" font-family="Arial, sans-serif">Practical skills for enterprise AI adoption and business workflows.</text>
-  <text x="120" y="380" fill="#bfdbfe" font-size="24" font-family="Arial, sans-serif">Meetings  ·  Sales  ·  Reporting  ·  Training  ·  Proposals</text>
-  <text x="120" y="470" fill="#93c5fd" font-size="22" font-family="Arial, sans-serif">Public baseline skills. Custom enterprise workflows by design.</text>
+  <text x="120" y="382" fill="#bfdbfe" font-size="24" font-family="Arial, sans-serif">Meetings  ·  Sales  ·  Reports  ·  Training  ·  Enterprise AI</text>
+  <text x="120" y="470" fill="#93c5fd" font-size="22" font-family="Arial, sans-serif">Public baseline skills for fast understanding and real workflow reuse.</text>
 </svg>
-
